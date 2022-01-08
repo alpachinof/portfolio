@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+
+
+<body>
+    <div class="container">
+        <h1>calculator</h1>
+        <div class="first-row">
+            <input type="text" id="screen" readonly placeholder="result">
+            <input type="button" id="clear" value="c" onclick="clearscreen()">
+        </div>
+        <div class="second-row">
+            <input type="button" value="7" onclick="addscreen(7)">
+            <input type="button" value="8" onclick="addscreen(8)">
+            <input type="button" value="9" onclick="addscreen(9)">
+            <input type="button" value="+" onclick="addscreen('+')">
+        </div>
+        <div class="third-row">
+            <input type="button" value="4" onclick="addscreen(4)">
+            <input type="button" value="5" onclick="addscreen(5)">
+            <input type="button" value="6" onclick="addscreen(6)">
+            <input type="button" value="-" onclick="addscreen('-')">
+        </div>
+        <div class="fourth-row">
+            <input type="button" value="1" onclick="addscreen(1)">
+            <input type="button" value="2" onclick="addscreen(2)">
+            <input type="button" value="3" onclick="addscreen(3)">
+            <input type="button" value="X" onclick="addscreen('*')">
+        </div>
+        <div class="fifth-row">
+            <input type="button" value="/" onclick="addscreen('/')">
+            <input type="button" value="0" onclick="addscreen(0)">
+            <input type="button" value="." onclick="addscreen('.')">
+            <input type="button" value="=" onclick="evalu()">
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+</body>
+
+<script src="calculator.js"></script>
+</html>

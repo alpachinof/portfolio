@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: #43AFF7;
+    color: white;
+}
+.container{
+    margin: 120px auto;
+    max-width: 350px;
+    width: 100%;
+    background-color: #2F537B;
+    height: 120px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.active{
+    height: 400px;
+    overflow: visible;
+}
+input[type="text"]{
+    text-align: center;
+    width: 70%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#status{
+    margin-top: 40px;
+    font-size: 40px;
+
+}
+#degree{
+    margin-top: 20px;
+    font-size: 70px;
+}
+#city{
+    margin-top: 20px;
+    font-size: 40px;
+}
