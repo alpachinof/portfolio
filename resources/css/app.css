@@ -1,3 +1,162 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    src: url("./public/assets/fonts/inter-Regular") format("ttf");
+}
+@font-face {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    src: url("./public/assets/fonts/inter-SemiBold") format("ttf");
+}
+@font-face {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    src: url("./public/assets/fonts/inter-ExtraBold") format("ttf");
+}
+@font-face {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    src: url("./public/assets/fonts/inter-Black") format("ttf");
+}
+
+.bg-grid {
+    background-size: 100px 100px;
+    background-image: linear-gradient(
+            to right,
+            rgb(35, 35, 35) 1px,
+            transparent 1px
+        ),
+        linear-gradient(to bottom, rgb(35, 35, 35) 1px, transparent 1px);
+    background-attachment: fixed;
+}
+
+@keyframes typing {
+    0% {
+        width: 0%;
+        visibility: hidden;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+
+    100% {
+        border-color: white;
+    }
+}
+.animate-typing {
+    animation: typing 2s steps(18) infinite alternate, blink 0.7s infinite;
+}
+
+.animate-bing {
+    animation: bounce 1s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+        animation-timing-function: linear;
+    }
+
+    100% {
+        transform: translateY(20px);
+        animation-timing-function: linear;
+    }
+}
+
+.app-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    position: relative;
+    transition: all 0.2s;
+    width: 100%;
+}
+
+.app-card:hover {
+    background-color: green;
+    border-color: blue;
+}
+
+:root.dark .app-card:hover {
+    background-color: yellow;
+    border-color: skyblue;
+}
+
+:root {
+    --gradient-angle: 360deg;
+}
+
+@keyframes gradient-rotate {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.gradient-border {
+    background-size: 600% 600%;
+    border-radius: 14px;
+    height: calc(100% + 2px);
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transform: translate(-1px, -1px);
+    width: calc(100% + 2px);
+    z-index: -1;
+}
+
+.gradient-border-light {
+    background: linear-gradient(
+        1turn,
+        #00dc82,
+        #fff,
+        rgba(54, 228, 218, 0.7),
+        rgba(29, 224, 177, 0.3)
+    );
+    background: linear-gradient(
+        var(--gradient-angle),
+        #00dc82,
+        #fff,
+        rgba(54, 228, 218, 0.7),
+        rgba(29, 224, 177, 0.3)
+    );
+}
+
+.gradient-border-dark {
+    background: linear-gradient(
+        1turn,
+        hsla(0, 0%, 100%, 0.5),
+        hsla(0, 0%, 100%, 0.1),
+        #fff,
+        hsla(0, 0%, 100%, 0.3)
+    );
+    background: linear-gradient(
+        var(--gradient-angle),
+        hsla(0, 0%, 100%, 0.5),
+        hsla(0, 0%, 100%, 0.1),
+        #fff,
+        hsla(0, 0%, 100%, 0.3)
+    );
+}
+
+li:hover .gradient-border {
+    animation: gradient-rotate 5s linear 0s infinite reverse;
+    opacity: 1;
+    transition: all 0.3s linear;
+}
