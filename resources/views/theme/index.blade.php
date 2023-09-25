@@ -15,7 +15,7 @@
     <div class="relative overflow-hidden">
 
 
-        <main class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
+        <main class="h-screen mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
             <div class="text-center">
                 <h1 class="text-4xl tracking-tight leading-relaxed font-black text-white sm:text-5xl md:text-6xl">
                     <span class="block ">Hi,I'm</span>
@@ -38,75 +38,71 @@
             </div>
         </main>
 
-        <ul class="lg:grid-cols-3 grid grid-cols-1 gap-8 pt-16 sm:grid-cols-2"><!--[-->
-            <li class=" rounded-md relative group pc-s7omWT" data-v-adbe6ef1=""><!---->
-                <div class="hidden gradient-border gradient-border-dark dark:block" data-v-adbe6ef1=""></div>
-                <div class="dark:hidden gradient-border gradient-border-light" data-v-adbe6ef1=""></div>
-                <div class="app-card pv-RFH3Kz pc-b6uIiq" data-v-adbe6ef1="" data-v-12857447=""><!---->
-                    <div class="body" data-v-12857447=""><!--[--><!---->
-                        <div data-v-adbe6ef1=""><img src="/assets/home/ux-fast-dark.svg" alt=""
-                                class="h-full rounded-md hidden dark:block" width="341" height="164" loading="lazy"
-                                data-v-adbe6ef1=""><img src="/assets/home/ux-fast-light.svg" alt=""
-                                class="h-full rounded-md dark:hidden" width="341" height="164" loading="lazy"
-                                data-v-adbe6ef1=""></div>
-                        <div class="flex flex-col gap-y-4" data-v-adbe6ef1=""><!---->
-                            <header class="font-semibold u-text-gray-900 text-xl" data-v-adbe6ef1=""><!--[-->Fast and
-                                Furious<!--]--></header>
-                            <p class="u-text-gray-500" data-v-adbe6ef1=""><!--[-->Optimized with code-splitting,
-                                tree-shaking, optimized cold-start, link prefetching, payload extraction, just to name a
-                                few. Fast by default so you can focus on building.<!--]--></p><!---->
-                        </div><!--]-->
-                    </div><!---->
+
+        <div class="flex h-full mb-24 items-center justify-center gap-x-10">
+            <div
+                class="group relative w-64 overflow-hidden rounded-[16px] bg-secondary p-[1px] transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-gray-500 hover:via-gray-700  hover:to-gray-900">
+                <div
+                    class="group-hover:animate-spin-slow invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-white/90 to-transparent group-hover:visible">
                 </div>
-            </li>
-            <li class="rounded-md relative group pc-S_RMGp" data-v-adbe6ef1=""><!---->
-                <div class="hidden gradient-border gradient-border-dark dark:block" data-v-adbe6ef1=""></div>
-                <div class="dark:hidden gradient-border gradient-border-light" data-v-adbe6ef1=""></div>
-                <div class="app-card pv-RFH3Kz pc-LtwySl" data-v-adbe6ef1="" data-v-12857447=""><!---->
-                    <div class="body" data-v-12857447=""><!--[--><!---->
-                        <div data-v-adbe6ef1=""><img src="/assets/home/ux-hybrid-dark.svg" alt=""
-                                class="h-full rounded-md hidden dark:block" width="341" height="164" loading="lazy"
-                                data-v-adbe6ef1=""><img src="/assets/home/ux-hybrid-light.svg" alt=""
-                                class="h-full rounded-md dark:hidden" width="341" height="164" loading="lazy"
-                                data-v-adbe6ef1=""></div>
-                        <div class="flex flex-col gap-y-4" data-v-adbe6ef1=""><!---->
-                            <header class="font-semibold u-text-gray-900 text-xl" data-v-adbe6ef1=""><!--[-->On-demand
-                                Rendering<!--]--></header>
-                            <p class="u-text-gray-500" data-v-adbe6ef1=""><!--[-->Decide what rendering strategy at the
-                                route level: SSR, SSG, CSR, ISR, ESR, SWR.
-                                Build any kind of website or web application with optimized performance in mind.<!--]-->
-                            </p><!---->
-                        </div><!--]-->
-                    </div><!---->
+                <div class="relative rounded-[15px] bg-secondary p-6">
+                    <div class="space-y-4">
+                        <img src="https://nuxt.com/assets/home/ux-fast-light.svg" alt="" />
+                        <p class="text-lg font-semibold text-white">Web Development</p>
+                        <p class="font-md text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                            delectus temporibus </p>
+                    </div>
                 </div>
-            </li>
-            <li class="rounded-md relative group pc-KlyhvW" data-v-adbe6ef1=""><!---->
-                <div class="hidden gradient-border gradient-border-dark dark:block" data-v-adbe6ef1=""></div>
-                <div class="dark:hidden gradient-border gradient-border-light" data-v-adbe6ef1=""></div>
-                <div class="app-card pv-RFH3Kz pc-5sxk5g" data-v-adbe6ef1="" data-v-12857447=""><!---->
-                    <div class="body" data-v-12857447=""><!--[--><!---->
-                        <div data-v-adbe6ef1=""><img src="/assets/home/ux-seo-dark.svg" alt=""
-                                class="h-full rounded-md hidden dark:block" width="341" height="164" loading="lazy"
-                                data-v-adbe6ef1=""><img src="/assets/home/ux-seo-light.svg" alt=""
-                                class="h-full rounded-md dark:hidden" width="341" height="164" loading="lazy"
-                                data-v-adbe6ef1=""></div>
-                        <div class="flex flex-col gap-y-4" data-v-adbe6ef1=""><!---->
-                            <header class="font-semibold u-text-gray-900 text-xl" data-v-adbe6ef1=""><!--[-->SEO &amp;
-                                Web Vitals<!--]--></header>
-                            <p class="u-text-gray-500" data-v-adbe6ef1=""><!--[-->By leveraging server-side rendering,
-                                ESM format and optimized images, Nuxt websites are indexable by search engines while
-                                giving the feeling of an app to the end-users.<!--]--></p><!---->
-                        </div><!--]-->
-                    </div><!---->
+            </div>
+            <div
+                class="group relative w-64 overflow-hidden rounded-[16px] bg-secondary p-[1px] transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-gray-500 hover:via-gray-700  hover:to-gray-900">
+                <div
+                    class="group-hover:animate-spin-slow invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-white/90 to-transparent group-hover:visible">
                 </div>
-            </li><!--]-->
-        </ul>
+                <div class="relative rounded-[15px] bg-secondary p-6">
+                    <div class="space-y-4">
+                        <img src="https://nuxt.com/assets/home/ux-fast-light.svg" alt="" />
+                        <p class="text-lg font-semibold text-white">Front-End Development</p>
+                        <p class="font-md text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                            delectus temporibus</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="group relative w-64 overflow-hidden rounded-[16px] bg-secondary p-[1px] transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-gray-500 hover:via-gray-700  hover:to-gray-900">
+                <div
+                    class="group-hover:animate-spin-slow invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-white/90 to-transparent group-hover:visible">
+                </div>
+                <div class="relative rounded-[15px] bg-secondary p-6">
+                    <div class="space-y-4">
+                        <img src="https://nuxt.com/assets/home/ux-fast-light.svg" alt="" />
+                        <p class="text-lg font-semibold text-white">Back-End Development</p>
+                        <p class="font-md text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                            delectus temporibus</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="group relative w-64 overflow-hidden rounded-[16px] bg-secondary p-[1px] transition-all duration-300 ease-in-out hover:bg-gradient-to-r hover:from-gray-500 hover:via-gray-700  hover:to-gray-900">
+                <div
+                    class="group-hover:animate-spin-slow invisible absolute -top-40 -bottom-40 left-10 right-10 bg-gradient-to-r from-transparent via-white/90 to-transparent group-hover:visible">
+                </div>
+                <div class="relative rounded-[15px] bg-secondary p-6">
+                    <div class="space-y-4">
+                        <img src="https://nuxt.com/assets/home/ux-fast-light.svg" alt="" />
+                        <p class="text-lg font-semibold text-white">UX & UI Design</p>
+                        <p class="font-md text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                            delectus temporibus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
 
 
-        <div class="relative py-16 sm:py-24">
+        <div class="relative py-16 sm:py-16">
             <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-24 lg:items-start">
                 <div class="relative sm:py-16 lg:py-0">
                     <div aria-hidden="true" class="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
@@ -560,8 +556,252 @@
             </div>
 
         </section>
+
+
+        <section>
+
+            <div class="mt-48 flex flex-col items-center justify-center ">
+                <h2 class="text-3xl text-white font-extrabold tracking-tight sm:text-4xl my-8">Technologies</h2>
+                <p class="text-gray-500">I’ve had the opportunity to work across all kinds of product</p>
+
+                <div class="my-12 w-full">
+
+                    <div class="swiper w-full">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="flex items-center justify-center w-16 h-16 bg-secondary rounded-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="flex items-center justify-center w-16 h-16 bg-secondary rounded-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                                    </svg>
+
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="flex items-center justify-center w-16 h-16 bg-secondary rounded-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
+                                    </svg>
+
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="flex items-center justify-center w-16 h-16 bg-secondary rounded-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5m8.25 3v6.75m0 0l-3-3m3 3l3-3M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+                                    </svg>
+
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="flex items-center justify-center w-16 h-16 bg-secondary rounded-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="flex items-center justify-center w-16 h-16 bg-secondary rounded-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="flex items-center justify-center w-16 h-16 bg-secondary rounded-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="flex items-center justify-center w-16 h-16 bg-secondary rounded-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
+                                    </svg>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="flex items-center justify-center w-16 h-16 bg-secondary rounded-lg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M9 9V4.5M9 9H4.5M9 9L3.75 3.75M9 15v4.5M9 15H4.5M9 15l-5.25 5.25M15 9h4.5M15 9V4.5M15 9l5.25-5.25M15 15h4.5M15 15v4.5m0-4.5l5.25 5.25" />
+                                    </svg>
+
+
+                                </div>
+                            </div>
+
+                            ...
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section>
+            <div class="my-2 flex flex-col items-center justify-center ">
+                <h2 class="text-left text-3xl text-white font-extrabold tracking-tight sm:text-4xl my-8">
+                    Contact
+                </h2>
+                <div class="container px-16 w-full flex items-start justify-center gap-x-24">
+                    <div class="flex flex-col gap-y-4 w-4/12 bg-secondary h-full px-8 py-10 rounded-lg">
+                        <div class=" space-y-2">
+                            <label class="text-gray-400" for="name">name</label>
+                            <input name="name" class="w-full rounded-md h-10 bg-[#28282F]" type="text">
+                        </div>
+                        <div class="mt-4 space-y-2">
+                            <label class="text-gray-400" for="name">email</label>
+                            <input name="email" class="w-full rounded-md h-10 bg-[#28282F]" type="text">
+                        </div>
+                        <div class="mt-12 space-y-2">
+                            <label class="text-gray-400" for="name">message</label>
+                            <textarea rows="7" name="email" class="w-full rounded-md bg-[#28282F]"></textarea>
+                        </div>
+                        <button class="w-full rounded-md h-10 text-white bg-primary" type="button">Send</button>
+                    </div>
+
+                    <div class="w-5/12 space-y-6">
+                        <div class="flex items-center justify-start p-6 gap-x-6 w-11/12 bg-secondary rounded-3xl h-24">
+                            <div class="w-14 h-14 rounded-xl border border-gray-400"></div>
+                            <p class=" text-gray-400 font-bold">@lilmamad</p>
+                            <svg class="ml-auto" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.875 7.5H6.5625C5.81658 7.5 5.10121 7.79632 4.57376 8.32376C4.04632 8.85121 3.75 9.56658 3.75 10.3125V23.4375C3.75 24.1834 4.04632 24.8988 4.57376 25.4262C5.10121 25.9537 5.81658 26.25 6.5625 26.25H19.6875C20.4334 26.25 21.1488 25.9537 21.6762 25.4262C22.2037 24.8988 22.5 24.1834 22.5 23.4375V13.125M9.375 20.625L26.25 3.75M26.25 3.75H19.6875M26.25 3.75V10.3125"
+                                    stroke="#F1F1F1" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+
+                        <div class="flex items-center justify-start p-6 gap-x-6 w-11/12 bg-secondary rounded-3xl h-24">
+                            <div class="w-14 h-14 rounded-xl border border-gray-400"></div>
+                            <p class=" text-gray-400 font-bold">@lilmamad</p>
+                            <svg class="ml-auto" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.875 7.5H6.5625C5.81658 7.5 5.10121 7.79632 4.57376 8.32376C4.04632 8.85121 3.75 9.56658 3.75 10.3125V23.4375C3.75 24.1834 4.04632 24.8988 4.57376 25.4262C5.10121 25.9537 5.81658 26.25 6.5625 26.25H19.6875C20.4334 26.25 21.1488 25.9537 21.6762 25.4262C22.2037 24.8988 22.5 24.1834 22.5 23.4375V13.125M9.375 20.625L26.25 3.75M26.25 3.75H19.6875M26.25 3.75V10.3125"
+                                    stroke="#F1F1F1" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+
+                        <div class="flex items-center justify-start p-6 gap-x-6 w-11/12 bg-secondary rounded-3xl h-24">
+                            <div class="w-14 h-14 rounded-xl border border-gray-400"></div>
+                            <p class=" text-gray-400 font-bold">@lilmamad</p>
+                            <svg class="ml-auto" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.875 7.5H6.5625C5.81658 7.5 5.10121 7.79632 4.57376 8.32376C4.04632 8.85121 3.75 9.56658 3.75 10.3125V23.4375C3.75 24.1834 4.04632 24.8988 4.57376 25.4262C5.10121 25.9537 5.81658 26.25 6.5625 26.25H19.6875C20.4334 26.25 21.1488 25.9537 21.6762 25.4262C22.2037 24.8988 22.5 24.1834 22.5 23.4375V13.125M9.375 20.625L26.25 3.75M26.25 3.75H19.6875M26.25 3.75V10.3125"
+                                    stroke="#F1F1F1" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+
+
+                        <div class="flex items-center justify-start p-6 gap-x-6 w-11/12 bg-secondary rounded-3xl h-24">
+                            <div class="w-14 h-14 rounded-xl border border-gray-400"></div>
+                            <p class=" text-gray-400 font-bold">@lilmamad</p>
+                            <svg class="ml-auto" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.875 7.5H6.5625C5.81658 7.5 5.10121 7.79632 4.57376 8.32376C4.04632 8.85121 3.75 9.56658 3.75 10.3125V23.4375C3.75 24.1834 4.04632 24.8988 4.57376 25.4262C5.10121 25.9537 5.81658 26.25 6.5625 26.25H19.6875C20.4334 26.25 21.1488 25.9537 21.6762 25.4262C22.2037 24.8988 22.5 24.1834 22.5 23.4375V13.125M9.375 20.625L26.25 3.75M26.25 3.75H19.6875M26.25 3.75V10.3125"
+                                    stroke="#F1F1F1" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+
+        </section>
     </div>
-    </div>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </body>
 
 </html>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        spaceBetween: 200,
+        grabCursor: false,
+        slidesPerView: 7,
+        allowTouchMove: false,
+        loop: true,
+        autoplay: {
+            delay: 1,
+            disableOnInteraction: false,
+            reverseDirection: true
+        },
+        freeMode: false,
+        speed: 5000,
+        freeModeMomentum: true
+    });
+</script>
+
+<style>
+    .swiper {
+        width: 100%;
+        height: 300px;
+    }
+
+    .swiper-container {
+        height: calc(100vh - 120px);
+        margin: 60px;
+    }
+
+
+    .swiper-slide {
+
+
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .swiper-wrapper {
+        -webkit-transition-timing-function: linear !important;
+        -o-transition-timing-function: linear !important;
+        transition-timing-function: linear !important;
+    }
+</style>
